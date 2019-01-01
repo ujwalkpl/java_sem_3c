@@ -1,6 +1,6 @@
-package main.StudentPackage;
-import main.*;
-import main.ResultPackage.*;
+package packagesandInterfaces.StudentPackage;
+import packagesandInterfaces.*;
+import packagesandInterfaces.ResultPackage.*;
 import java.util.Scanner;
 
 class CreditLimit extends Exception {

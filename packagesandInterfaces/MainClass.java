@@ -1,5 +1,5 @@
-~package main;
-import main.StudentPackage.RegisterStudent;
+package packagesandInterfaces;
+import packagesandInterfaces.StudentPackage.RegisterStudent;
 import java.util.Scanner;
 
 

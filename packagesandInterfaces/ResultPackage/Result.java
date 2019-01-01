@@ -1,5 +1,13 @@
-package main.ResultPackage;
+package packagesandInterfaces.ResultPackage;
 import java.util.Scanner;
+class INVALIDSGPA extends Exception{
+	void INVALIDSGPA(){
+
+	}
+	String toString(){
+		return "INVALID SGPA SGPA MORE THAN 10";
+	}
+}
 public class Result{
 	Scanner scan = new Scanner(System.in);
 	public int num_sub;
@@ -61,6 +69,13 @@ public class Result{
 		}
 		sgpa[n]=sgpa[n]/(totalcredits);
 		System.out.println("The sgpa is "+sgpa[n]);
+	}
+	try{
+	if(sgpa>10){
+		throw new INVALIDSGPA;
+	}}
+	catch(INVALIDSGPA e){
+		System.out.println(e);
 	}
 
 	}
