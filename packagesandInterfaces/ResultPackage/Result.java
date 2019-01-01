@@ -4,7 +4,7 @@ class INVALIDSGPA extends Exception{
 	void INVALIDSGPA(){
 
 	}
-	String toString(){
+	public String toString(){
 		return "INVALID SGPA SGPA MORE THAN 10";
 	}
 }
@@ -69,13 +69,12 @@ public class Result{
 		}
 		sgpa[n]=sgpa[n]/(totalcredits);
 		System.out.println("The sgpa is "+sgpa[n]);
-	}
+
 	try{
-	if(sgpa>10){
-		throw new INVALIDSGPA;
-	}}
-	catch(INVALIDSGPA e){
+	if(sgpa[n]>10){
+		throw new INVALIDSGPA();
+	}}catch(INVALIDSGPA e){
 		System.out.println(e);
 	}
-
+}
 	}

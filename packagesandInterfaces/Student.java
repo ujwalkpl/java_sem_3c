@@ -1,6 +1,6 @@
-package main;
+package packagesandInterfaces;
 public interface Student{
   void getname();
   void getbranch();
-  
+
 }
