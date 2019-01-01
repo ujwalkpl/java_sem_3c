@@ -1,4 +1,4 @@
-package main;
+~package main;
 import main.StudentPackage.RegisterStudent;
 import java.util.Scanner;
 
